@@ -127,3 +127,28 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Microsoft Office Excel files
+*.xls
+*.xlsx
+
+# StanfordNLP resource files
+stanfordnlp_resources/
+
+# Visual Studio Code files
+.vscode/
+
+# pickle files
+*.pkl
+
+# Log files
+log.txt
+
+# JSON files
+*.json
+
+# PNG files
+*.png
+
+# Hunspell data
+hunspell/
