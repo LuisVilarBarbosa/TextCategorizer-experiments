@@ -1,0 +1,12 @@
+name: text-categorizer
+channels:
+- default
+dependencies:
+- pip==19.1.1
+- python==3.7.6
+- pip:
+  - pandas==0.24.1
+  - xlrd==1.2.0
+  - numpy==1.16.1
+  - scikit-learn==0.20.3
+  - tqdm==4.31.1
