@@ -108,7 +108,7 @@ def generate_report(execution_info, predictions_dict, excel_file='report.xlsx'):
     return df1
 
 def train(excel_file, text_column, labels_column, train_test_idxs_file, n_jobs, n_accepted_probs, output_file):
-    for filename in ['X_train_BERT.json', 'X_train_ELMo.json', 'X_test_BERT.json', 'X_test_ELMo.json']:
+    for filename in ['X_train_BERT.pkl', 'X_train_ELMo.pkl', 'X_test_BERT.pkl', 'X_test_ELMo.pkl']:
         if not exists(filename):
             print(f'The file \'{filename}\' is missing. Please, run the corresponding experiment to obtain the file.')
             quit()
