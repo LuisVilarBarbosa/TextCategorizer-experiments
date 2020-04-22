@@ -132,8 +132,8 @@ dmypy.json
 *.xls
 *.xlsx
 
-# StanfordNLP resource files
-stanfordnlp_resources/
+# Stanza resource files
+stanza_resources/
 
 # Visual Studio Code files
 .vscode/
