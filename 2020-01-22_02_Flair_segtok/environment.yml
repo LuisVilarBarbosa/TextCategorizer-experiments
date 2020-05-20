@@ -12,3 +12,4 @@ dependencies:
   - scikit-learn==0.20.3
   - tqdm==4.31.1
   - flair==0.4.1
+  - openpyxl==3.0.3
