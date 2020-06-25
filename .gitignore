@@ -155,3 +155,6 @@ hunspell/
 
 # Data files
 *.dat
+
+# PyTorch data files
+*.pt

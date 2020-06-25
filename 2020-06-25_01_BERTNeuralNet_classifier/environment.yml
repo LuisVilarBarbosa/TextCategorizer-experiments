@@ -1,0 +1,16 @@
+name: text-categorizer
+channels:
+- pytorch
+dependencies:
+- pip==19.1.1
+- python==3.7.6
+- pytorch==1.0.1
+- torchvision==0.2.2
+- cudatoolkit==10.0.130
+- pip:
+  - pandas==0.24.1
+  - xlrd==1.2.0
+  - scikit-learn==0.20.3
+  - tqdm==4.31.1
+  - transformers==2.5.1
+  - openpyxl==3.0.3
