@@ -14,3 +14,7 @@ dependencies:
   - tqdm==4.31.1
   - spacy[cuda100]==2.2.3
   - openpyxl==3.0.3
+  # Specific sub-dependencies:
+  - cymem==2.0.3
+  - srsly==2.0.0
+  - scipy==1.4.1

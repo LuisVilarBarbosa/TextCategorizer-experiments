@@ -11,3 +11,5 @@ dependencies:
   - scikit-learn==0.20.3
   - tqdm==4.31.1
   - openpyxl==3.0.3
+  # Specific sub-dependencies:
+  - scipy==1.4.1

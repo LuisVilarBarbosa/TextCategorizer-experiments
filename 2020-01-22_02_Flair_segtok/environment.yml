@@ -13,3 +13,8 @@ dependencies:
   - tqdm==4.31.1
   - flair==0.4.1
   - openpyxl==3.0.3
+  # Specific sub-dependencies:
+  - sentencepiece==0.1.85
+  - regex==2020.1.8
+  - scipy==1.4.1
+  - gensim==3.8.1

@@ -17,3 +17,6 @@ dependencies:
   - transformers==2.5.1
   - seaborn==0.10.0
   - openpyxl==3.0.3
+  # Specific sub-dependencies:
+  - sentencepiece==0.1.85
+  - scipy==1.4.1

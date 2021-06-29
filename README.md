@@ -13,15 +13,22 @@ The different projects are designed to be used natively, but can easily be used 
 ### Prerequisites
 
 - To execute natively, a machine with Anaconda3 64-bit or Miniconda3 64-bit installed is required.
+- To execute the experiment "2020-03-09_02_ELMo_by_sentence" natively on Linux, it is also required to have g++ and make installed.
 
 ### Installing/Updating
 
 Here are presented the instructions on how to install/update all the dependencies necessary to execute the projects.
 
-To install/update natively, open a shell (an Anaconda prompt is recommended on Windows and Bash is recommended on Linux) and type the following commands:
+To install natively, open a shell (an Anaconda prompt is recommended on Windows and Bash is recommended on Linux) and type the following commands:
 ```
 cd <path-to-experiment-folder>
-conda env update -f environment.yml
+conda env create --file environment.yml
+```
+
+To update natively, open a shell (an Anaconda prompt is recommended on Windows and Bash is recommended on Linux) and type the following commands:
+```
+cd <path-to-experiment-folder>
+conda env create --file environment.yml --force
 ```
 
 ## Executing
